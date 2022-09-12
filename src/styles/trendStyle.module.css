@@ -1,0 +1,41 @@
+
+.isSelected {
+    text-decoration: underline;
+    font-size: large;
+    color: #091776;
+    font-weight: 600;
+
+  }
+.navOptions{
+    color: rgb(12, 78, 116);
+    margin-bottom: 30px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 100%;
+}
+.adminsection{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.trendingNavbar{
+    display: flex;
+}
+.trendContent{
+    font-size: medium;
+    color: rgb(14, 47, 71);
+    font-size: 18px;
+}
+.trendContent:hover {
+    text-decoration-color: #b6dcf2;
+    font-size: large;
+    color: rgba(57, 76, 204, 0.588);
+    font-weight: 600;
+  }

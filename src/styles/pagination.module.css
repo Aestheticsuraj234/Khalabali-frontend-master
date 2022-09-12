@@ -1,0 +1,15 @@
+.pagination{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.pageItem{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.activePage{
+    background-color: rgb(106, 161, 175);
+}
