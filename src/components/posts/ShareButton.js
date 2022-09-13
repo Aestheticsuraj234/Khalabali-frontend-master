@@ -16,8 +16,7 @@ function ShareButton() {
         onClick={() => console.log("shared successfully!")}
       >
         <Button bgColor="transparent" color="gray">
-          {" "}
-          <FaShare />{" "}
+          <FaShare />
         </Button>
       </RWebShare>
     </div>
